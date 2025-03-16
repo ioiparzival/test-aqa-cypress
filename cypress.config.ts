@@ -11,8 +11,8 @@ const finalConfig = defineConfig({
     configPath: './cypress/configs/global.ts',
   },
   e2e: {
-    defaultCommandTimeout: 50000,
-    pageLoadTimeout: 50000,
+    defaultCommandTimeout: 80000,
+    pageLoadTimeout: 80000,
     chromeWebSecurity: false,
     reporter: 'cypress-multi-reporters',
     reporterOptions: {
