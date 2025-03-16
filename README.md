@@ -185,9 +185,9 @@ npm run allure.start    # Start Allure server to view reports
 
 ## Original Project
 
-This project was created using the cypress-boilerplate repository as a template for a test assignment.
+This project was created using the [cypress-boilerplate](https://github.com/optimumqa/cypress-boilerplate) repository as a template for a test assignment.
 
-Special thanks to the creators of the Cypress Boilerplate for providing a solid foundation for automated testing! 🚀
+Special thanks to the creators of the [cypress boilerplate](https://github.com/optimumqa/cypress-boilerplate) for providing a solid foundation for automated testing! 🚀
 
 ## License
 
