@@ -1,0 +1,58 @@
+{
+  "staging": {
+    "primary": {
+      "name": "User name",
+      "email": "test@cypress_template_test.com",
+      "password": "user password"
+    },
+    "userValid": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "phoneNumber": "1234567890",
+      "email": "JohnDoe@test.com",
+      "address": "NY, USA",
+      "gender": "Female",
+      "subject": "Maths",
+      "hobby": "Sports, Reading",
+      "state": "NCR",
+      "city": "Delhi"
+    },
+    "userInvalid": {
+      "firstName": "123",
+      "lastName": "123",
+      "phoneNumber": "ASDFGHJKLQ",
+      "emailNoAt": "JohnDoetest.com",
+      "emailNoDomain": "JohnDoe@test",
+      "address": "NY, USA",
+      "gender": "Female",
+      "subject": "Maths",
+      "hobby": "Sports, Reading",
+      "state": "NCR",
+      "city": "Delhi"
+    }
+  },
+  "release": {
+    "primary": {
+      "name": "User name",
+      "email": "test@cypress_template_test.com",
+      "password": "user password"
+    },
+    "secondary": {
+      "name": "User name",
+      "email": "test@cypress_template_test.com",
+      "password": "user password"
+    }
+  },
+  "production": {
+    "primary": {
+      "name": "User name",
+      "email": "test@cypress_template_test.com",
+      "password": "user password"
+    },
+    "secondary": {
+      "name": "User name",
+      "email": "test@cypress_template_test.com",
+      "password": "user password"
+    }
+  }
+}

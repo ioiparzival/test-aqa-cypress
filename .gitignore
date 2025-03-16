@@ -1,0 +1,122 @@
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+# Local development
+docker-compose.override.yml
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Additional Cypress patterns
+cypress.env.json
+.cypress-cache/
+
+# Browser automation
+debug.log
+*.dump
+
+# TypeScript
+*.tsbuildinfo
+.eslintcache
+
+# Temporary files
+.temp
+.tmp
+
+# Test Reports
+allure-results/
+allure-report/
+mochawesome-report/
+test-results/
+playwright-report/
+reports/
+
+# Husky
+.husky/_
+.husky/*.backup
+
+# IDE - WebStorm specific
+.idea/sonarlint/
+
+# Misc
+*.local
+.history/
+.env*.local

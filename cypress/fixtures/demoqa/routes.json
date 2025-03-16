@@ -1,0 +1,14 @@
+{
+  "commonPaths": {},
+  "envs": {
+    "staging": {
+      "baseUrlStaging": "https://demoqa.com/"
+    },
+    "release": {
+      "baseUrlRelease": "https://demoqa.com/"
+    },
+    "production": {
+      "baseUrlProduction": "https://demoqa.com/"
+    }
+  }
+}
